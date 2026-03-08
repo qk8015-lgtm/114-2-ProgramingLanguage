@@ -22,7 +22,7 @@
         "colab_type": "text"
       },
       "source": [
-        "<a href=\"https://colab.research.google.com/github/qk8015-lgtm/114-2-ProgramingLanguage/blob/main/%E3%80%8CHW1_%E6%97%A5%E5%B8%B8%E6%94%AF%E5%87%BA%E9%80%9F%E7%AE%97%E8%88%87%E5%88%86%E6%94%A4_ipynb%E3%80%8D%E7%9A%84%E5%89%AF%E6%9C%AC.ipynb\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+        "<a href=\"https://colab.research.google.com/github/qk8015-lgtm/114-2-ProgramingLanguage/blob/main/%E3%80%8CHW1_%E6%97%A5%E5%B8%B8%E6%94%AF%E5%87%BA%E9%80%9F%E7%AE%97%E8%88%87%E5%88%86%E6%94%A4\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
       ]
     },
     {
@@ -41,7 +41,7 @@
     },
     {
       "cell_type": "code",
-      "execution_count": 58,
+      "execution_count": null,
       "metadata": {
         "id": "hnSEAvySXVws"
       },
@@ -68,7 +68,7 @@
       "metadata": {
         "id": "Tvo0Dy2eYRZ6"
       },
-      "execution_count": 59,
+      "execution_count": null,
       "outputs": []
     },
     {
@@ -84,27 +84,23 @@
       "metadata": {
         "colab": {
           "base_uri": "https://localhost:8080/",
-          "height": 293
+          "height": 115
         },
         "id": "NGX38KL6YjTo",
-        "outputId": "24976dac-9086-477a-aaf0-4c0b23b4a91b"
+        "outputId": "ab9baf42-f348-4a81-ee82-bbcdea58b171"
       },
-      "execution_count": 60,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "execute_result",
           "data": {
             "text/plain": [
-              "           日期     時間  分類     品項   金額 付款人 地點 支付方式 備註\n",
-              "0  2026-08-15  23:59       book  234               \n",
-              "1  2026-08-15  23:59       book  234               \n",
-              "2   2026-8-11  23:22      apple   22               \n",
-              "3   2026-8-11  23:22  水果  apple   22               \n",
-              "4   2026-8-11  23:22  水果  apple   22               "
+              "           日期     時間    分類  品項   金額  付款人  地點 支付方式   備註\n",
+              "0  2023-09-11  23:22  book  字典  333  琴子琋  南港   現金  要看書"
             ],
             "text/html": [
               "\n",
-              "  <div id=\"df-0c51c300-59ec-4879-b9c2-62a411347430\" class=\"colab-df-container\">\n",
+              "  <div id=\"df-bb7926e4-7e68-4e06-bdd6-dda1ff35f555\" class=\"colab-df-container\">\n",
               "    <div>\n",
               "<style scoped>\n",
               "    .dataframe tbody tr th:only-of-type {\n",
@@ -137,63 +133,15 @@
               "  <tbody>\n",
               "    <tr>\n",
               "      <th>0</th>\n",
-              "      <td>2026-08-15</td>\n",
-              "      <td>23:59</td>\n",
-              "      <td></td>\n",
+              "      <td>2023-09-11</td>\n",
+              "      <td>23:22</td>\n",
               "      <td>book</td>\n",
-              "      <td>234</td>\n",
-              "      <td></td>\n",
-              "      <td></td>\n",
-              "      <td></td>\n",
-              "      <td></td>\n",
-              "    </tr>\n",
-              "    <tr>\n",
-              "      <th>1</th>\n",
-              "      <td>2026-08-15</td>\n",
-              "      <td>23:59</td>\n",
-              "      <td></td>\n",
-              "      <td>book</td>\n",
-              "      <td>234</td>\n",
-              "      <td></td>\n",
-              "      <td></td>\n",
-              "      <td></td>\n",
-              "      <td></td>\n",
-              "    </tr>\n",
-              "    <tr>\n",
-              "      <th>2</th>\n",
-              "      <td>2026-8-11</td>\n",
-              "      <td>23:22</td>\n",
-              "      <td></td>\n",
-              "      <td>apple</td>\n",
-              "      <td>22</td>\n",
-              "      <td></td>\n",
-              "      <td></td>\n",
-              "      <td></td>\n",
-              "      <td></td>\n",
-              "    </tr>\n",
-              "    <tr>\n",
-              "      <th>3</th>\n",
-              "      <td>2026-8-11</td>\n",
-              "      <td>23:22</td>\n",
-              "      <td>水果</td>\n",
-              "      <td>apple</td>\n",
-              "      <td>22</td>\n",
-              "      <td></td>\n",
-              "      <td></td>\n",
-              "      <td></td>\n",
-              "      <td></td>\n",
-              "    </tr>\n",
-              "    <tr>\n",
-              "      <th>4</th>\n",
-              "      <td>2026-8-11</td>\n",
-              "      <td>23:22</td>\n",
-              "      <td>水果</td>\n",
-              "      <td>apple</td>\n",
-              "      <td>22</td>\n",
-              "      <td></td>\n",
-              "      <td></td>\n",
-              "      <td></td>\n",
-              "      <td></td>\n",
+              "      <td>字典</td>\n",
+              "      <td>333</td>\n",
+              "      <td>琴子琋</td>\n",
+              "      <td>南港</td>\n",
+              "      <td>現金</td>\n",
+              "      <td>要看書</td>\n",
               "    </tr>\n",
               "  </tbody>\n",
               "</table>\n",
@@ -201,7 +149,7 @@
               "    <div class=\"colab-df-buttons\">\n",
               "\n",
               "  <div class=\"colab-df-container\">\n",
-              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-0c51c300-59ec-4879-b9c2-62a411347430')\"\n",
+              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-bb7926e4-7e68-4e06-bdd6-dda1ff35f555')\"\n",
               "            title=\"Convert this dataframe to an interactive table.\"\n",
               "            style=\"display:none;\">\n",
               "\n",
@@ -253,12 +201,12 @@
               "\n",
               "    <script>\n",
               "      const buttonEl =\n",
-              "        document.querySelector('#df-0c51c300-59ec-4879-b9c2-62a411347430 button.colab-df-convert');\n",
+              "        document.querySelector('#df-bb7926e4-7e68-4e06-bdd6-dda1ff35f555 button.colab-df-convert');\n",
               "      buttonEl.style.display =\n",
               "        google.colab.kernel.accessAllowed ? 'block' : 'none';\n",
               "\n",
               "      async function convertToInteractive(key) {\n",
-              "        const element = document.querySelector('#df-0c51c300-59ec-4879-b9c2-62a411347430');\n",
+              "        const element = document.querySelector('#df-bb7926e4-7e68-4e06-bdd6-dda1ff35f555');\n",
               "        const dataTable =\n",
               "          await google.colab.kernel.invokeFunction('convertToInteractive',\n",
               "                                                    [key], {});\n",
@@ -284,11 +232,11 @@
             "application/vnd.google.colaboratory.intrinsic+json": {
               "type": "dataframe",
               "variable_name": "df",
-              "summary": "{\n  \"name\": \"df\",\n  \"rows\": 6,\n  \"fields\": [\n    {\n      \"column\": \"\\u65e5\\u671f\",\n      \"properties\": {\n        \"dtype\": \"object\",\n        \"num_unique_values\": 3,\n        \"samples\": [\n          \"2026-08-15\",\n          \"2026-8-11\",\n          \"2022-08-22\"\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"\\u6642\\u9593\",\n      \"properties\": {\n        \"dtype\": \"object\",\n        \"num_unique_values\": 3,\n        \"samples\": [\n          \"23:59\",\n          \"23:22\",\n          \"22:22\"\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"\\u5206\\u985e\",\n      \"properties\": {\n        \"dtype\": \"category\",\n        \"num_unique_values\": 2,\n        \"samples\": [\n          \"\\u6c34\\u679c\",\n          \"\"\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"\\u54c1\\u9805\",\n      \"properties\": {\n        \"dtype\": \"category\",\n        \"num_unique_values\": 2,\n        \"samples\": [\n          \"apple\",\n          \"book\"\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"\\u91d1\\u984d\",\n      \"properties\": {\n        \"dtype\": \"string\",\n        \"num_unique_values\": 3,\n        \"samples\": [\n          \"234\",\n          \"22\"\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"\\u4ed8\\u6b3e\\u4eba\",\n      \"properties\": {\n        \"dtype\": \"object\",\n        \"num_unique_values\": 1,\n        \"samples\": [\n          \"\"\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"\\u5730\\u9ede\",\n      \"properties\": {\n        \"dtype\": \"object\",\n        \"num_unique_values\": 1,\n        \"samples\": [\n          \"\"\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"\\u652f\\u4ed8\\u65b9\\u5f0f\",\n      \"properties\": {\n        \"dtype\": \"object\",\n        \"num_unique_values\": 1,\n        \"samples\": [\n          \"\"\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"\\u5099\\u8a3b\",\n      \"properties\": {\n        \"dtype\": \"object\",\n        \"num_unique_values\": 1,\n        \"samples\": [\n          \"\"\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    }\n  ]\n}"
+              "summary": "{\n  \"name\": \"df\",\n  \"rows\": 1,\n  \"fields\": [\n    {\n      \"column\": \"\\u65e5\\u671f\",\n      \"properties\": {\n        \"dtype\": \"object\",\n        \"num_unique_values\": 1,\n        \"samples\": [\n          \"2023-09-11\"\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"\\u6642\\u9593\",\n      \"properties\": {\n        \"dtype\": \"object\",\n        \"num_unique_values\": 1,\n        \"samples\": [\n          \"23:22\"\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"\\u5206\\u985e\",\n      \"properties\": {\n        \"dtype\": \"string\",\n        \"num_unique_values\": 1,\n        \"samples\": [\n          \"book\"\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"\\u54c1\\u9805\",\n      \"properties\": {\n        \"dtype\": \"string\",\n        \"num_unique_values\": 1,\n        \"samples\": [\n          \"\\u5b57\\u5178\"\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"\\u91d1\\u984d\",\n      \"properties\": {\n        \"dtype\": \"string\",\n        \"num_unique_values\": 1,\n        \"samples\": [\n          \"333\"\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"\\u4ed8\\u6b3e\\u4eba\",\n      \"properties\": {\n        \"dtype\": \"string\",\n        \"num_unique_values\": 1,\n        \"samples\": [\n          \"\\u7434\\u5b50\\u740b\"\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"\\u5730\\u9ede\",\n      \"properties\": {\n        \"dtype\": \"string\",\n        \"num_unique_values\": 1,\n        \"samples\": [\n          \"\\u5357\\u6e2f\"\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"\\u652f\\u4ed8\\u65b9\\u5f0f\",\n      \"properties\": {\n        \"dtype\": \"string\",\n        \"num_unique_values\": 1,\n        \"samples\": [\n          \"\\u73fe\\u91d1\"\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"\\u5099\\u8a3b\",\n      \"properties\": {\n        \"dtype\": \"string\",\n        \"num_unique_values\": 1,\n        \"samples\": [\n          \"\\u8981\\u770b\\u66f8\"\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    }\n  ]\n}"
             }
           },
           "metadata": {},
-          "execution_count": 60
+          "execution_count": 72
         }
       ]
     },
@@ -300,7 +248,7 @@
       "metadata": {
         "id": "vyKKjojgZhNA"
       },
-      "execution_count": 61,
+      "execution_count": null,
       "outputs": []
     },
     {
@@ -329,24 +277,24 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "MN3G7hp7ZWvz",
-        "outputId": "17c40a9a-e13c-415f-a93b-69ad01862bc0",
+        "outputId": "f25e0e6b-6f76-47c1-fd0e-83dcac40ce77",
         "collapsed": true
       },
-      "execution_count": 62,
+      "execution_count": null,
       "outputs": [
         {
           "name": "stdout",
           "output_type": "stream",
           "text": [
-            "請輸入日期 (格式：YYYY-MM-DD): 2023-09-11\n",
-            "請輸入時間 (格式：HH:MM): 23:22\n",
-            "請輸入分類: book\n",
-            "請輸入品項: 字典\n",
-            "請輸入金額: 333\n",
-            "請輸入付款人: 琴子琋\n",
-            "請輸入地點: 南港\n",
+            "請輸入日期 (格式：YYYY-MM-DD): 2011-12-22\n",
+            "請輸入時間 (格式：HH:MM): 22:11\n",
+            "請輸入分類: food\n",
+            "請輸入品項: coco\n",
+            "請輸入金額: 50\n",
+            "請輸入付款人: cc\n",
+            "請輸入地點: 台北\n",
             "請輸入支付方式: 現金\n",
-            "請輸入備註: 要看書\n"
+            "請輸入備註: 無\n"
           ]
         }
       ]
@@ -369,22 +317,22 @@
           "height": 35
         },
         "id": "PPkA_qwRaF-N",
-        "outputId": "3d0c57d7-0420-479e-9ec4-2513d98d4c48"
+        "outputId": "468ae163-ae5d-4d86-bd40-d84a7aed22ac"
       },
-      "execution_count": 63,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "execute_result",
           "data": {
             "text/plain": [
-              "'2023-09-11'"
+              "'2011-12-22'"
             ],
             "application/vnd.google.colaboratory.intrinsic+json": {
               "type": "string"
             }
           },
           "metadata": {},
-          "execution_count": 63
+          "execution_count": 75
         }
       ]
     },
@@ -399,22 +347,22 @@
           "height": 35
         },
         "id": "HnR0ixrLacaa",
-        "outputId": "3808ac83-0240-4c00-e98c-90c15aea578e"
+        "outputId": "1c4a17ae-185c-4bb7-963c-8b8803e03752"
       },
-      "execution_count": 64,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "execute_result",
           "data": {
             "text/plain": [
-              "'23:22'"
+              "'22:11'"
             ],
             "application/vnd.google.colaboratory.intrinsic+json": {
               "type": "string"
             }
           },
           "metadata": {},
-          "execution_count": 64
+          "execution_count": 76
         }
       ]
     },
@@ -429,22 +377,22 @@
           "height": 35
         },
         "id": "L60_XVSFaeiD",
-        "outputId": "216cd1b9-29ec-4267-c489-5358c49dbd38"
+        "outputId": "e4b1db58-4782-48e6-816d-4ca303234347"
       },
-      "execution_count": 65,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "execute_result",
           "data": {
             "text/plain": [
-              "'字典'"
+              "'coco'"
             ],
             "application/vnd.google.colaboratory.intrinsic+json": {
               "type": "string"
             }
           },
           "metadata": {},
-          "execution_count": 65
+          "execution_count": 77
         }
       ]
     },
@@ -458,19 +406,19 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "kcmlGFKfagcz",
-        "outputId": "ca914811-86eb-4c65-dd84-0e6a67229113"
+        "outputId": "c75553b8-5789-488c-a9b9-9454815109bb"
       },
-      "execution_count": 66,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "execute_result",
           "data": {
             "text/plain": [
-              "333.0"
+              "50.0"
             ]
           },
           "metadata": {},
-          "execution_count": 66
+          "execution_count": 78
         }
       ]
     },
@@ -496,7 +444,7 @@
       "metadata": {
         "id": "yySaXhktbXUM"
       },
-      "execution_count": 67,
+      "execution_count": null,
       "outputs": []
     },
     {
@@ -507,29 +455,24 @@
       "metadata": {
         "colab": {
           "base_uri": "https://localhost:8080/",
-          "height": 408
+          "height": 164
         },
         "id": "jOyVO-dgbY16",
-        "outputId": "048676f8-641e-4f5c-e3d2-81982b1d6b29"
+        "outputId": "f348f62a-0ed5-428b-d799-e9bfefc55cfe"
       },
-      "execution_count": 68,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "execute_result",
           "data": {
             "text/plain": [
-              "           日期     時間    分類     品項     金額  付款人  地點 支付方式   備註\n",
-              "0  2026-08-15  23:59         book    234                   \n",
-              "1  2026-08-15  23:59         book    234                   \n",
-              "2   2026-8-11  23:22        apple     22                   \n",
-              "3   2026-8-11  23:22    水果  apple     22                   \n",
-              "4   2026-8-11  23:22    水果  apple     22                   \n",
-              "5  2022-08-22  22:22    水果  apple     33                   \n",
-              "6  2023-09-11  23:22  book     字典  333.0  琴子琋  南港   現金  要看書"
+              "           日期     時間    分類    品項    金額  付款人  地點 支付方式   備註\n",
+              "0  2023-09-11  23:22  book    字典   333  琴子琋  南港   現金  要看書\n",
+              "1  2011-12-22  22:11  food  coco  50.0   cc  台北   現金    無"
             ],
             "text/html": [
               "\n",
-              "  <div id=\"df-6d3ee715-f955-4325-b979-1d50dd45f380\" class=\"colab-df-container\">\n",
+              "  <div id=\"df-c9a9bbb3-00ba-4fcc-a1b4-8f7b542f94d1\" class=\"colab-df-container\">\n",
               "    <div>\n",
               "<style scoped>\n",
               "    .dataframe tbody tr th:only-of-type {\n",
@@ -562,87 +505,27 @@
               "  <tbody>\n",
               "    <tr>\n",
               "      <th>0</th>\n",
-              "      <td>2026-08-15</td>\n",
-              "      <td>23:59</td>\n",
-              "      <td></td>\n",
-              "      <td>book</td>\n",
-              "      <td>234</td>\n",
-              "      <td></td>\n",
-              "      <td></td>\n",
-              "      <td></td>\n",
-              "      <td></td>\n",
-              "    </tr>\n",
-              "    <tr>\n",
-              "      <th>1</th>\n",
-              "      <td>2026-08-15</td>\n",
-              "      <td>23:59</td>\n",
-              "      <td></td>\n",
-              "      <td>book</td>\n",
-              "      <td>234</td>\n",
-              "      <td></td>\n",
-              "      <td></td>\n",
-              "      <td></td>\n",
-              "      <td></td>\n",
-              "    </tr>\n",
-              "    <tr>\n",
-              "      <th>2</th>\n",
-              "      <td>2026-8-11</td>\n",
-              "      <td>23:22</td>\n",
-              "      <td></td>\n",
-              "      <td>apple</td>\n",
-              "      <td>22</td>\n",
-              "      <td></td>\n",
-              "      <td></td>\n",
-              "      <td></td>\n",
-              "      <td></td>\n",
-              "    </tr>\n",
-              "    <tr>\n",
-              "      <th>3</th>\n",
-              "      <td>2026-8-11</td>\n",
-              "      <td>23:22</td>\n",
-              "      <td>水果</td>\n",
-              "      <td>apple</td>\n",
-              "      <td>22</td>\n",
-              "      <td></td>\n",
-              "      <td></td>\n",
-              "      <td></td>\n",
-              "      <td></td>\n",
-              "    </tr>\n",
-              "    <tr>\n",
-              "      <th>4</th>\n",
-              "      <td>2026-8-11</td>\n",
-              "      <td>23:22</td>\n",
-              "      <td>水果</td>\n",
-              "      <td>apple</td>\n",
-              "      <td>22</td>\n",
-              "      <td></td>\n",
-              "      <td></td>\n",
-              "      <td></td>\n",
-              "      <td></td>\n",
-              "    </tr>\n",
-              "    <tr>\n",
-              "      <th>5</th>\n",
-              "      <td>2022-08-22</td>\n",
-              "      <td>22:22</td>\n",
-              "      <td>水果</td>\n",
-              "      <td>apple</td>\n",
-              "      <td>33</td>\n",
-              "      <td></td>\n",
-              "      <td></td>\n",
-              "      <td></td>\n",
-              "      <td></td>\n",
-              "    </tr>\n",
-              "    <tr>\n",
-              "      <th>6</th>\n",
               "      <td>2023-09-11</td>\n",
               "      <td>23:22</td>\n",
               "      <td>book</td>\n",
               "      <td>字典</td>\n",
-              "      <td>333.0</td>\n",
+              "      <td>333</td>\n",
               "      <td>琴子琋</td>\n",
               "      <td>南港</td>\n",
               "      <td>現金</td>\n",
               "      <td>要看書</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>1</th>\n",
+              "      <td>2011-12-22</td>\n",
+              "      <td>22:11</td>\n",
+              "      <td>food</td>\n",
+              "      <td>coco</td>\n",
+              "      <td>50.0</td>\n",
+              "      <td>cc</td>\n",
+              "      <td>台北</td>\n",
+              "      <td>現金</td>\n",
+              "      <td>無</td>\n",
               "    </tr>\n",
               "  </tbody>\n",
               "</table>\n",
@@ -650,7 +533,7 @@
               "    <div class=\"colab-df-buttons\">\n",
               "\n",
               "  <div class=\"colab-df-container\">\n",
-              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-6d3ee715-f955-4325-b979-1d50dd45f380')\"\n",
+              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-c9a9bbb3-00ba-4fcc-a1b4-8f7b542f94d1')\"\n",
               "            title=\"Convert this dataframe to an interactive table.\"\n",
               "            style=\"display:none;\">\n",
               "\n",
@@ -702,12 +585,12 @@
               "\n",
               "    <script>\n",
               "      const buttonEl =\n",
-              "        document.querySelector('#df-6d3ee715-f955-4325-b979-1d50dd45f380 button.colab-df-convert');\n",
+              "        document.querySelector('#df-c9a9bbb3-00ba-4fcc-a1b4-8f7b542f94d1 button.colab-df-convert');\n",
               "      buttonEl.style.display =\n",
               "        google.colab.kernel.accessAllowed ? 'block' : 'none';\n",
               "\n",
               "      async function convertToInteractive(key) {\n",
-              "        const element = document.querySelector('#df-6d3ee715-f955-4325-b979-1d50dd45f380');\n",
+              "        const element = document.querySelector('#df-c9a9bbb3-00ba-4fcc-a1b4-8f7b542f94d1');\n",
               "        const dataTable =\n",
               "          await google.colab.kernel.invokeFunction('convertToInteractive',\n",
               "                                                    [key], {});\n",
@@ -727,7 +610,7 @@
               "  </div>\n",
               "\n",
               "\n",
-              "  <div id=\"id_c0b09dad-d0fa-4f48-9f15-1279568be487\">\n",
+              "  <div id=\"id_ccde733c-6928-4748-807f-c738e0277076\">\n",
               "    <style>\n",
               "      .colab-df-generate {\n",
               "        background-color: #E8F0FE;\n",
@@ -771,7 +654,7 @@
               "    <script>\n",
               "      (() => {\n",
               "      const buttonEl =\n",
-              "        document.querySelector('#id_c0b09dad-d0fa-4f48-9f15-1279568be487 button.colab-df-generate');\n",
+              "        document.querySelector('#id_ccde733c-6928-4748-807f-c738e0277076 button.colab-df-generate');\n",
               "      buttonEl.style.display =\n",
               "        google.colab.kernel.accessAllowed ? 'block' : 'none';\n",
               "\n",
@@ -788,11 +671,11 @@
             "application/vnd.google.colaboratory.intrinsic+json": {
               "type": "dataframe",
               "variable_name": "df",
-              "summary": "{\n  \"name\": \"df\",\n  \"rows\": 7,\n  \"fields\": [\n    {\n      \"column\": \"\\u65e5\\u671f\",\n      \"properties\": {\n        \"dtype\": \"object\",\n        \"num_unique_values\": 4,\n        \"samples\": [\n          \"2026-8-11\",\n          \"2023-09-11\",\n          \"2026-08-15\"\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"\\u6642\\u9593\",\n      \"properties\": {\n        \"dtype\": \"object\",\n        \"num_unique_values\": 3,\n        \"samples\": [\n          \"23:59\",\n          \"23:22\",\n          \"22:22\"\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"\\u5206\\u985e\",\n      \"properties\": {\n        \"dtype\": \"category\",\n        \"num_unique_values\": 3,\n        \"samples\": [\n          \"\",\n          \"\\u6c34\\u679c\",\n          \"book\"\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"\\u54c1\\u9805\",\n      \"properties\": {\n        \"dtype\": \"category\",\n        \"num_unique_values\": 3,\n        \"samples\": [\n          \"book\",\n          \"apple\",\n          \"\\u5b57\\u5178\"\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"\\u91d1\\u984d\",\n      \"properties\": {\n        \"dtype\": \"string\",\n        \"num_unique_values\": 4,\n        \"samples\": [\n          \"22\",\n          333.0,\n          \"234\"\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"\\u4ed8\\u6b3e\\u4eba\",\n      \"properties\": {\n        \"dtype\": \"category\",\n        \"num_unique_values\": 2,\n        \"samples\": [\n          \"\\u7434\\u5b50\\u740b\",\n          \"\"\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"\\u5730\\u9ede\",\n      \"properties\": {\n        \"dtype\": \"category\",\n        \"num_unique_values\": 2,\n        \"samples\": [\n          \"\\u5357\\u6e2f\",\n          \"\"\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"\\u652f\\u4ed8\\u65b9\\u5f0f\",\n      \"properties\": {\n        \"dtype\": \"category\",\n        \"num_unique_values\": 2,\n        \"samples\": [\n          \"\\u73fe\\u91d1\",\n          \"\"\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"\\u5099\\u8a3b\",\n      \"properties\": {\n        \"dtype\": \"category\",\n        \"num_unique_values\": 2,\n        \"samples\": [\n          \"\\u8981\\u770b\\u66f8\",\n          \"\"\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    }\n  ]\n}"
+              "summary": "{\n  \"name\": \"df\",\n  \"rows\": 2,\n  \"fields\": [\n    {\n      \"column\": \"\\u65e5\\u671f\",\n      \"properties\": {\n        \"dtype\": \"object\",\n        \"num_unique_values\": 2,\n        \"samples\": [\n          \"2011-12-22\",\n          \"2023-09-11\"\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"\\u6642\\u9593\",\n      \"properties\": {\n        \"dtype\": \"object\",\n        \"num_unique_values\": 2,\n        \"samples\": [\n          \"22:11\",\n          \"23:22\"\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"\\u5206\\u985e\",\n      \"properties\": {\n        \"dtype\": \"string\",\n        \"num_unique_values\": 2,\n        \"samples\": [\n          \"food\",\n          \"book\"\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"\\u54c1\\u9805\",\n      \"properties\": {\n        \"dtype\": \"string\",\n        \"num_unique_values\": 2,\n        \"samples\": [\n          \"coco\",\n          \"\\u5b57\\u5178\"\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"\\u91d1\\u984d\",\n      \"properties\": {\n        \"dtype\": \"string\",\n        \"num_unique_values\": 2,\n        \"samples\": [\n          50.0,\n          \"333\"\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"\\u4ed8\\u6b3e\\u4eba\",\n      \"properties\": {\n        \"dtype\": \"string\",\n        \"num_unique_values\": 2,\n        \"samples\": [\n          \"cc\",\n          \"\\u7434\\u5b50\\u740b\"\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"\\u5730\\u9ede\",\n      \"properties\": {\n        \"dtype\": \"string\",\n        \"num_unique_values\": 2,\n        \"samples\": [\n          \"\\u53f0\\u5317\",\n          \"\\u5357\\u6e2f\"\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"\\u652f\\u4ed8\\u65b9\\u5f0f\",\n      \"properties\": {\n        \"dtype\": \"string\",\n        \"num_unique_values\": 1,\n        \"samples\": [\n          \"\\u73fe\\u91d1\"\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"\\u5099\\u8a3b\",\n      \"properties\": {\n        \"dtype\": \"string\",\n        \"num_unique_values\": 2,\n        \"samples\": [\n          \"\\u7121\"\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    }\n  ]\n}"
             }
           },
           "metadata": {},
-          "execution_count": 68
+          "execution_count": 80
         }
       ]
     },
@@ -817,9 +700,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "pBw3mmWzcJyA",
-        "outputId": "34ef1653-073b-41c9-f03d-a590bcab0802"
+        "outputId": "2f528e4a-54da-41d3-8fd6-e28a03aa4b55"
       },
-      "execution_count": 69,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
